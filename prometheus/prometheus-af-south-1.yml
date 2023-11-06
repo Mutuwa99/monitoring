@@ -6,4 +6,4 @@ scrape_configs:
     ec2_sd_configs:
       - region: 'af-south-1'
     static_configs:
-      - targets: ['174.129.126.46:9100', '54.220.68.144:9100']
+      - targets: ['54.165.34.218:9100']
