@@ -6,4 +6,4 @@ scrape_configs:
     ec2_sd_configs:
       - region: 'af-south-1'
     static_configs:
-      - targets: ['54.165.34.218:9100']
+      - targets: ['monitoring.noble-mutuwa.com:9100']
