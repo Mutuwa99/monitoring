@@ -4,17 +4,17 @@ datasources:
   - name: Prometheus-af-south-1
     type: prometheus
     access: proxy
-    url: http://prometheus-us-east-1:9090
+    url: http://prometheus-af-south-1:9090
     isDefault: true
 
-  # - name: Prometheus-us-west-1
-  #   type: prometheus
-  #   access: proxy
-  #   url: http://prometheus-eu-west-1:9090
-  #   isDefault: true
+  - name: Prometheus-us-west-1
+    type: prometheus
+    access: proxy
+    url: http://prometheus-eu-west-1:9090
+    isDefault: true
 
-  # - name: Prometheus-eu-west-1
-  #   type: prometheus
-  #   access: proxy
-  #   url: http://prometheus-eu-west-3:9090
-  #   isDefault: true
+  - name: Prometheus-eu-west-1
+    type: prometheus
+    access: proxy
+    url: http://prometheus-eu-west-3:9090
+    isDefault: true
